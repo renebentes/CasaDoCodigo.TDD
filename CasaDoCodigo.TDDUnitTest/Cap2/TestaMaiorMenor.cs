@@ -4,9 +4,9 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace CasaDoCodigo.TDDUnitTest.Cap2
 {
     [TestClass]
+    [TestCategory("Cap 2 - Maior e Menor")]
     public class TestaMaiorMenor
     {
-        [TestCategory("Cap 2 - Maior e Menor")]
         [TestMethod]
         public void OrdemCrescente()
         {
@@ -22,7 +22,6 @@ namespace CasaDoCodigo.TDDUnitTest.Cap2
             Assert.AreEqual("Geladeira", algoritmo.Maior.Nome);
         }
 
-        [TestCategory("Cap 2 - Maior e Menor")]
         [TestMethod]
         public void OrdemDecrescente()
         {
@@ -38,7 +37,6 @@ namespace CasaDoCodigo.TDDUnitTest.Cap2
             Assert.AreEqual("Geladeira", algoritmo.Maior.Nome);
         }
 
-        [TestCategory("Cap 2 - Maior e Menor")]
         [TestMethod]
         public void OrdemVariada()
         {
@@ -54,7 +52,6 @@ namespace CasaDoCodigo.TDDUnitTest.Cap2
             Assert.AreEqual("Geladeira", algoritmo.Maior.Nome);
         }
 
-        [TestCategory("Cap 2 - Maior e Menor")]
         [TestMethod]
         public void UmProduto()
         {

@@ -4,9 +4,9 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace CasaDoCodigo.TDD.Cap2UnitTest.Cap3
 {
     [TestClass]
+    [TestCategory("Cap 3 - Conversor de Romano")]
     public class ConversorNumeroRomanoTest
     {
-        [TestCategory("Cap 3 - Conversor de Romano")]
         [TestMethod]
         public void DeveEntenderDoisSimbolosComoII()
         {
@@ -15,7 +15,6 @@ namespace CasaDoCodigo.TDD.Cap2UnitTest.Cap3
             Assert.AreEqual(2, numero);
         }
 
-        [TestCategory("Cap 3 - Conversor de Romano")]
         [TestMethod]
         public void DeveEntenderQuatroSimbolosComoXXII()
         {
@@ -24,7 +23,6 @@ namespace CasaDoCodigo.TDD.Cap2UnitTest.Cap3
             Assert.AreEqual(22, numero);
         }
 
-        [TestCategory("Cap 3 - Conversor de Romano")]
         [TestMethod]
         public void DeveEntenderSimboloI()
         {
@@ -33,7 +31,6 @@ namespace CasaDoCodigo.TDD.Cap2UnitTest.Cap3
             Assert.AreEqual(1, numero);
         }
 
-        [TestCategory("Cap 3 - Conversor de Romano")]
         [TestMethod]
         public void DeveEntenderSimbolosComoIX()
         {
@@ -42,7 +39,6 @@ namespace CasaDoCodigo.TDD.Cap2UnitTest.Cap3
             Assert.AreEqual(9, numero);
         }
 
-        [TestCategory("Cap 3 - Conversor de Romano")]
         [TestMethod]
         public void DeveEntenderSimbolosComplexosComoXXIV()
         {
@@ -51,7 +47,6 @@ namespace CasaDoCodigo.TDD.Cap2UnitTest.Cap3
             Assert.AreEqual(24, numero);
         }
 
-        [TestCategory("Cap 3 - Conversor de Romano")]
         [TestMethod]
         public void DeveEntenderSimboloV()
         {

@@ -4,9 +4,9 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace CasaDoCodigo.TDD.Cap2UnitTest.Cap4
 {
     [TestClass]
+    [TestCategory("Cap 4 - Calculadora de Salário")]
     public class CalculadoraSalarioTest
     {
-        [TestCategory("Cap 4 - Calculadora de Salário")]
         [TestMethod]
         public void DeveCalcularSalarioParaDbasComSalarioAbaixoDoLimite()
         {
@@ -17,7 +17,6 @@ namespace CasaDoCodigo.TDD.Cap2UnitTest.Cap4
             Assert.AreEqual(500.0 * 0.85, salario, 0.00001);
         }
 
-        [TestCategory("Cap 4 - Calculadora de Salário")]
         [TestMethod]
         public void DeveCalcularSalarioParaDesenvolvedoresComSalarioAbaixoDoLimite()
         {
@@ -28,7 +27,6 @@ namespace CasaDoCodigo.TDD.Cap2UnitTest.Cap4
             Assert.AreEqual(1500.0 * 0.9, salario, 0.00001);
         }
 
-        [TestCategory("Cap 4 - Calculadora de Salário")]
         [TestMethod]
         public void DeveCalcularSalarioParaDesenvolvedoresComSalarioAcimaDoLimite()
         {

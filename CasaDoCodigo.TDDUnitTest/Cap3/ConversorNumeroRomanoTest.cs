@@ -1,7 +1,7 @@
 ﻿using CasaDoCodigo.TDD.Cap3;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace CasaDoCodigo.TDD.Cap2UnitTest.Cap3
+namespace CasaDoCodigo.TDDUnitTest.Cap3
 {
     [TestClass]
     [TestCategory("Cap 3 - Conversor de Romano")]

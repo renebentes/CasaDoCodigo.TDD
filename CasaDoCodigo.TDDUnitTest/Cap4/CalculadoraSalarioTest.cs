@@ -1,7 +1,7 @@
 ﻿using CasaDoCodigo.TDD.Cap4;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace CasaDoCodigo.TDD.Cap2UnitTest.Cap4
+namespace CasaDoCodigo.TDDUnitTest.Cap4
 {
     [TestClass]
     [TestCategory("Cap 4 - Calculadora de Salário")]
